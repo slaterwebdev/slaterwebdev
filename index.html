@@ -1,0 +1,178 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;800&family=Montserrat:ital,wght@0,300;0,400;0,600;1,200&display=swap" rel="stylesheet">
+  <title>Adam Slater - Frontend portfolio</title>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="menu-bar left">
+          <h2>Menu</h2>
+    </div>
+<!--HEADER-->
+    <header>
+        <div class="title-bar">
+          <h2>FRONTEND <span>DEV</span>ELOPER</h2>
+        </div>
+
+        <nav class="menuRight"> 
+            <a class="landing-page scroll">Home</a>
+            <a class="about-Me scroll">About Me</a>
+            <a class="project scroll">Projects</a>
+            <a class="contacts scroll">Contact</a>
+            <a href="https://github.com/slaterwebdev/adamslaterfrontendportfolio/tree/master/assets">Portfolio Source Code</a>
+        </nav>
+    </header>
+    
+      <div class="icon-container">
+        <div>
+          <img class="menu-icon" src="assets/menu-icon.png" alt="Hamburger menu icon">
+        </div>
+      </div>
+
+<!--HOME PAGE-->
+    <section class="home">
+      <div class="content-container">
+        <div class="text-content">
+          <div class="text-lines">
+            <div class="h-line"></div>
+            <h4>Hello</h4>
+            <div class="h-line"></div>
+          </div>
+          <h1>I'M ADAM SLATER</h1>
+          <h4 class="tagline">A creative problem <br>solving Dev!</h4>
+          <a class="lets-talk scroll">Let's Talk!</a>
+        </div>
+
+        <div class="img-container">
+          <img src="assets/me.png" alt="Picture of the site creator - Adam Slater">
+          <div class="shadow"></div>
+        </div>
+      </div>
+    </section>
+
+<!--DEV-INFO-->
+    <section class="dev-info">
+      <h2><span>About</span> Me</h2>
+      <div class="about-container">
+        <div>
+          <img src="assets/html.png" alt="html logo icon">
+          <img src="assets/css.png" alt="css logo icon">
+          <img src="assets/js.png" alt="javascript logo icon">
+          <img src="assets/bootstrap.png" alt="bootstrap logo icon">
+          <img src="assets/firestore.png" alt="firestore logo icon">
+          <img src="assets/engineering.png" alt="engineering logo icon">
+          <img src="assets/github.png" alt="github logo icon">
+        </div>
+        <article>
+          <p>
+            <!--JS CONTENT INJECTED HERE-->
+          </p>
+        </article>
+      </div>
+    </section>
+
+<!--PROJECTS-->
+    <section class="projects">
+      <h2><span>Pro</span>jects</h2> 
+      <div class="projects-container">
+        <div class="pro look-up">
+            <div class="code-file-link">
+              <a href="https://slaterwebdev.github.io/look-up/">Project: LOOK UP!</a>
+              <a href="https://github.com/slaterwebdev/look-up">Source code</a>
+            </div>         
+            <p class="project-description"><span>Description:</span> A project all about space, created with multiple NASA API's and Bootstrap! A responsive, mobile first designed project with a dark coloured theme. 
+            </p>
+        </div>
+
+        <div class="pro task-list">
+          <div class="code-file-link">
+            <a href="https://slaterwebdev.github.io/task-list/">Project: Task List</a>
+            <a href="https://github.com/slaterwebdev/task-list">Source code</a>
+          </div>
+          <p class="project-description"><span>Description:</span> Showing ability to use and manipulate User inputted data to affect the document and the browsers local storage. Accompanying this is Bootstrap for the CSS showcasing a sleak, simple design where less is more.
+          </p>
+        </div>
+
+        <div class="pro">
+          <div class="code-file-link">
+            <a>Project: Blah</a>
+            <a>Source code</a>
+          </div>
+          <p class="project-description"><span>Description:</span> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam eaque reprehenderit asperiores?
+          </p>
+        </div>
+
+        <div class="pro">
+          <div class="code-file-link">
+            <a>Project: COMING SOON</a>
+            <a>Source code</a>
+          </div>
+          <p class="project-description"><span>Description:</span> My 4th portfolio project coming shortly check back here soon!
+          </p>
+        </div>
+    </section>
+
+<!-- CONTACT -->
+    <section class="contact">
+      <h2><span>Get</span> in Touch<span>!</span></h2>
+        <form>
+          <input type="email" id="email" value="" placeholder="Your @email address" required>
+          <input type="text" id="name" value="" placeholder="Name" required>
+          <input type="text" id="number" value="" placeholder="Number" required>
+          <textarea name="" id="message" cols="20" rows="4" placeholder="Let's work together, I'm all ears!" required></textarea>
+          <input type="submit" id="submit" value="Submit">
+        </form>
+    </section>
+
+<!--FORM SUBMISSION MODAL-->
+    <div class="modal non-visible close">
+      <div class="modal-content">
+        <h3 class="close">X</h3>
+        <h2>Thanks!<br>Submission<br>Successful!</h2>
+      </div>
+    </div>
+
+<!--FOOTER-->
+    <footer>
+      <div class="linked-in">
+        <a href="https://www.linkedin.com/in/adam-slater-a08512223/"><img src="assets/linkedin.png" alt="LinkedIn logo"></a>
+      </div>
+
+      <div class="email">
+        <h3>@</h3>
+        <h4>Email:<br> adamslater <br> webdev <br>@outlook.com</h4>
+      </div>
+
+      <a class="portfolio-source-code" href="https://github.com/slaterwebdev/adamslaterfrontendportfolio/tree/master/assets">
+        Portfolio<br> Source <br>Code
+      </a>
+
+      <button type="button" class="to-top scroll"><a>Back<br> to top!</a></button>
+    </footer>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script> <!--the core app-->
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script> <!-- Firestore library -->
+  <script>
+  const firebaseConfig = {
+  apiKey: "AIzaSyBA_NE3_jYlZYO6btMm7qBT_VpOs7mcCwo",
+  authDomain: "my-portfolio-b1d49.firebaseapp.com",
+  projectId: "my-portfolio-b1d49",
+  storageBucket: "my-portfolio-b1d49.appspot.com",
+  messagingSenderId: "400910853196",
+  appId: "1:400910853196:web:f85119a16e2cafa3a6c0e9",
+  measurementId: "G-XEN951N4HW"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  const db = firebase.firestore(); 
+  </script>
+  <script src="js/app.js"></script>
+  <script src="js/database.js"></script>
+</body>
+</html>
