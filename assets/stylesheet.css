@@ -453,6 +453,11 @@ nav a:hover {
   background-position: top;
 }
 
+.novo {
+  background-image: url('novo.png');
+  background-position: center;
+}
+
 /*CONTACT*/
 
 .contact{ 
@@ -704,11 +709,7 @@ footer button:hover a {
     overflow: scroll;
     height: 80%;
     width: 100%;
-<<<<<<< HEAD
     margin: 0 auto 3vh auto;
-=======
-    margin: 0 auto 3% auto;
->>>>>>> 1ef0720 (ffff)
     border: 3px solid white;
     border-radius: 20px;
     background-color: #BCBCBC;
@@ -716,15 +717,9 @@ footer button:hover a {
 
   .pro {
     display: block;
-<<<<<<< HEAD
     margin:  3vh auto;
     width: 95%;
     height: 55%;
-=======
-    margin:  3% auto;
-    width: 95%;
-    height: 45%;
->>>>>>> 1ef0720 (ffff)
   }
 
   .pro .code-file-link {
